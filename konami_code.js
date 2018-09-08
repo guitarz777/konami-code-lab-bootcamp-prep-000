@@ -26,6 +26,7 @@ function init() {
     }
     if (index === codes.length){
       alert("You got the Konami code!")
+      index =0
     }
   })
 }
