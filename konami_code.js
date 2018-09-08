@@ -22,9 +22,6 @@ function init() {
       if (key===codes[index]){
        index++;
        console.log(key)
-      }else{
-      index = 0;
-      console.log("Wrong code!")
       }
     }
     if (index === codes.length){
